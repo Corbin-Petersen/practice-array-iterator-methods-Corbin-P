@@ -33,3 +33,7 @@ let firstLongFood = favoriteFood.find(food => food.length > 4);
 let foodIndex = favoriteFood.findIndex(food => food.length > 4);
 console.log(firstLongFood);
 console.log(foodIndex);
+/* logs the following:
+Chicken Chimichangas
+1
+*/
